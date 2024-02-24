@@ -1,0 +1,80 @@
+@media(max-width:575px){
+    .navbar-nav {
+        gap: 10px !important;
+        align-items: center;
+    }
+    .btn-sign{
+        margin-left: 10px !important;
+    }
+    .banner_cont {
+        margin-top: 50px !important;
+        text-align: center;
+    }
+    .banner_img{
+        display: none;
+    }
+    .feature_bike{
+        display: flex;
+    }
+    .feature_bike img {
+        width: 60%;
+    }
+    .feature_cont span{
+        margin-left: 265px !important;
+        margin-top: 8px;
+
+    }
+    .feature_cont h1 {
+        font-size: 25px !important;
+    }
+    .btn-purches{
+        margin-bottom: 40px;
+    }
+    .latest_news {
+        text-align: center;
+    }
+    .happy{
+        font-size: 25px !important;
+        text-align: center !important;
+    }
+    .question_img {
+        text-align: center;
+    }
+    
+.feature_bike {
+    text-align: center;
+}
+button i {
+    color: #fff;
+}
+}
+@media(max-width:320px){
+    .navbar-brand img {
+        width: 50%;
+    }
+    button i {
+        color: #fff;
+    }
+    .feature_cont span{
+        display: none !important;
+    }
+    .news{
+        font-size: 25px !important;
+    }
+    .news_cont img{
+        width: 80%;
+    }
+    summary{
+        font-size: 14px !important;
+        font-weight: 400 !important;
+    }
+    .footer_cont ul {
+        display: flow !important;
+    }
+    .feature_cont h1{
+        font-size: 16px !important;
+    }
+    .feature_bike img {
+        width: 75% !important;
+    }
+}
